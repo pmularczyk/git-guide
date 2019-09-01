@@ -13,6 +13,7 @@ Use Git commands to help keep track of changes made to a project:
 - **git commit** permanently stores file changes from the staging area in the local repository
 - **git log** shows a list of all previous commits
 
+------------
 ### 2. Backtracking
 
 In Git, the commit you are currently on is known as the HEAD commit. In many cases, the most recently made commit is the HEAD commit.
@@ -34,6 +35,7 @@ If you want to go back to a previous commit in your commit history, enter:
 
 Note that you only need the first 7 characters. For example, if the SHA of the previous commit is da39a3ee5e6b4b0d3255bfef95601890afd80709 you can simply type `git reset da39a3e`
 
+------------
 ### 3. Branching
 
 The following commands are useful in the Git branch workflow.
@@ -45,6 +47,7 @@ The following commands are useful in the Git branch workflow.
 - **git merge branch_name** Used to join file changes from specified branch to the branch you are currently on.
 - **git branch -d branch_name** Deletes the branch specified.
 
+------------
 ### 4. Collaboration
 
 
@@ -96,7 +99,7 @@ this will push your branch up to the remote, origin.
 - **git merge origin/master** Merges origin/master into your - local branch.
 - **git push origin branch_name** Pushes a local branch to the origin remote.
 
-
+------------
 ### 5. Merge Vs. Rebase
 
 Keep in mind:
