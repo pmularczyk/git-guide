@@ -129,3 +129,5 @@ With `rebase` git looks for the last commit both branches (local master and feat
 5. **git checkout master** 
 6. **git rebase feature_branch** Brings commits of feature_branch into local master
 7. **git push** Push changes to remote 
+
+![cheatsheet](git.png)
